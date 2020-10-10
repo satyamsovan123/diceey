@@ -15,6 +15,7 @@ body{
 }
 
 .container{
+  text-shadow: 2px 2px 6px #24272c;
   font-family: 'Grandstander', cursive;
   font-size: 370%;
   color: #4ECCA3;
@@ -39,6 +40,7 @@ hr{
 
 /* play-area */
 .play-area{
+  text-shadow: 1px 1px 4px #24272c;
   margin-top: 2%;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
@@ -54,14 +56,17 @@ hr{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: win-anim 1.5s ease-in-out alternate infinite ;
+  text-shadow: 1px 1px 4px #24272c;
 }
 
 @keyframes win-anim {
   0%{
     opacity: 0;
+    text-shadow: none;
   }
   100%{
     opacity: 1;
+    text-shadow: none;
   }
 
 }
@@ -79,6 +84,7 @@ hr{
 
 /* footer */
 footer{
+  text-shadow: 1px 1px 4px #24272c;
   margin-top: 5%;
   font-size: 120%;
   color: #EEEEEE;
